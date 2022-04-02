@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
  * @author suraj
  *
  */
-public class Test1
+public class oddEvenAndReverseInput
 {
 	
 	//@Test
