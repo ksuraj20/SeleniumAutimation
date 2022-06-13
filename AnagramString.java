@@ -18,13 +18,14 @@ public class AnagramString
 	public static void main(String[] args)
 		{
 			//Anagram means the size and charecters are available in pair of strings in different order
-			String input1 = "listen",input2 = "silent"; 
+			String input1 = "liste",input2 = "silent"; 
 			char [] array1, array2;
 			boolean isStringAnagram=false;
 
 			if(input1.length() != input2.length())
 				{
 					System.out.println("The pair of the strings are not anagram");
+					System.exit(1);
 				}
 
 			array1 = input1.toCharArray();
